@@ -25,9 +25,6 @@ const Header = () => {
         className={` flex items-center justify-start text-lg  text-white py-2 px-4 w-56 rounded-3xl h-12 ${
           isActive ? 'bg-orange-500 font-bold' : ''
         }`}
-        onClick={() => {
-          // Handle any additional onClick logic here
-        }}
       >
         {Icon && <Icon className="mr-2 text-xl" />}
         {children}
